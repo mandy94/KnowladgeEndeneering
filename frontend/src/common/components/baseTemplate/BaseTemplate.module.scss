@@ -1,0 +1,42 @@
+@import "../../styles/variables.scss";
+
+.layout {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.header {
+  justify-content: center;
+  z-index: 1;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+.contentLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.siderHeader {
+  padding: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  background: green;
+  h1 {
+    color: azure;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  margin-bottom: 1rem;
+}
